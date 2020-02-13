@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name" translatable="false">Debtors and Creditors</string>
+
+    <string name="report">Reports</string>
+    <string name="given">Given</string>
+    <string name="take">Taken</string>
+    <string name="button">Date and Time</string>
+    <string name="text">Date and Time</string>
+    <string name="title_name">Debitors N Creditors</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sett_reminder_header">Set Reminder</string>
+    <string name="sett_reminder_label">Remind Me</string>
+    <string name="sett_reminder_desc">We will remind you to make entiries of your expense</string>
+    <string name="sett_reminder_time_label">Set Reminder Time</string>
+    <string name="sett_reminder_time_content">8 : 00 PM</string>
+    <string name="backup_database">Backup Database</string>
+    <string name="restore_database">Restore Database</string>
+    <string name="google_backup">Google Backup</string>
+    <string name="google_restore">Google Restore</string>
+    <string name="name">Name</string>
+    <string name="amount">Amount</string>
+    <string name="description">Description</string>
+    <string name="date">Date</string>
+    <string name="set_date_and_time">Set Date And Time</string>
+    <string name="due_date">Due Date</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="given_caps">GIVEN</string>
+    <string name="give_status">GIVE STATUS</string>
+    <string name="submit">Submit</string>
+    <string name="set_remainder">Set Remainder</string>
+    <string name="given_reports">Given ReportS</string>
+    <string name="taken_reports">Taken Reports</string>
+    <string name="add_reminder">Add Reminder</string>
+    <string name="view_reminders">View Reminders</string>
+    <string name="total_amount">Total Amount</string>
+    <string name="give">Give</string>
+    <string name="take_with_space">Take</string>
+    <string name="save">Save</string>
+    <string name="taken">TAKEN</string>
+    <string name="take_status">TAKE STATUS</string>
+    <string name="balance">Balance</string>
+    <string name="reminder">Reminder</string>
+    <string name="people_reports">PEOPLE REPORTS</string>
+    <string name="give_date">Give Date</string>
+    <string name="give_amount">Give Amount</string>
+    <string name="remind_me">Remind Me @</string>
+</resources>

@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityDeleteAndEdit">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/givetoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:title="Edit/Delete">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/des"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".15"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="12dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/edteditname"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".200"
+                        android:background="@color/light_blue"
+                        android:drawableLeft="@drawable/ic_person_black_24dp"
+                        android:drawablePadding="6dp"
+                        android:ems="10"
+                        android:hint="@string/name"
+                        android:inputType="textPersonName|textCapWords"
+                        android:paddingLeft="12dp" />
+
+                    <ImageView
+                        android:id="@+id/imgeditcontact"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_group_add_black_24dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".50"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/edteditamount"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="12dp"
+                        android:layout_weight="1"
+                        android:background="@color/light_blue"
+                        android:drawableLeft="@drawable/icon_amount"
+                        android:drawablePadding="6dp"
+                        android:ems="10"
+                        android:hint="@string/amount"
+                        android:inputType="textPersonName|number"
+                        android:paddingLeft="12dp" />
+
+                    <EditText
+                        android:id="@+id/edteditdes"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="12dp"
+                        android:layout_weight="1"
+                        android:background="@color/light_blue"
+                        android:drawableLeft="@drawable/ic_description_black_24dp"
+                        android:drawablePadding="6dp"
+                        android:ems="10"
+                        android:hint="@string/description"
+                        android:inputType="textPersonName|textCapWords"
+                        android:paddingLeft="12dp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="12dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tveditcdate"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/light_blue"
+                        android:drawableLeft="@drawable/ic_today_black_24dp"
+                        android:drawablePadding="6dp"
+                        android:gravity="center|left"
+                        android:hint="@string/date"
+                        android:paddingLeft="12dp"
+                        android:textSize="17sp" />
+
+                    <Button
+                        android:id="@+id/btneditcdate"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/blue"
+                        android:text="@string/set_date_and_time"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/des"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tveditduedate"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/light_blue"
+                        android:drawableLeft="@drawable/ic_today_black_24dp"
+                        android:drawablePadding="6dp"
+                        android:gravity="center|left"
+                        android:hint="@string/due_date"
+                        android:paddingLeft="12dp"
+                        android:textSize="17sp" />
+
+                    <Button
+                        android:id="@+id/btneditduedate"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/blue"
+                        android:text="@string/set_date_and_time"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/givenid"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/tvedittype"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible" />
+
+
+            </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btnedit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_button"
+                        android:layout_weight="1"
+                        android:layout_marginRight="12dp"
+                        android:text="@string/update"
+                        android:textColor="@color/white" />
+
+                    <Button
+                        android:id="@+id/btndelete"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bg_button"
+                        android:layout_marginLeft="12dp"
+                        android:layout_weight="1"
+                        android:text="@string/delete"
+                        android:textColor="@color/white" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center|right"
+                android:padding="6dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imgedithome"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/home"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>

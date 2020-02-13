@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "40158591726",
+    "firebase_url": "https://debitors-and-creditors.firebaseio.com",
+    "project_id": "debitors-and-creditors",
+    "storage_bucket": "debitors-and-creditors.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40158591726:android:4edac2d5b9027bf81a91ff",
+        "android_client_info": {
+          "package_name": "com.debitscredits.debitmaneger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40158591726-rud3dvjh6q0gmcvlq4bkrdnqneuc122k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.debitscredits.debitmaneger",
+            "certificate_hash": "7428ee005675599026814f75d7b24770625b136b"
+          }
+        },
+        {
+          "client_id": "40158591726-hnlron7sa9bhvlh3obot7p747rnu4h1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApBbhHoVZWJ91_EJiwpK9lgZa8cbUIfM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "40158591726-hnlron7sa9bhvlh3obot7p747rnu4h1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="report">Отчеты</string>
+    <string name="given">Данный</string>
+    <string name="take">Полученный</string>
+    <string name="button">Дата и время
+</string>
+    <string name="text">Дата и время
+e</string>
+    <string name="title_name">Дебиторы и Кредиторы</string>
+    <string name="hello_blank_fragment">Привет пустой фрагмент
+</string>
+    <string name="sett_reminder_header">Установить напоминание
+</string>
+    <string name="sett_reminder_label">Напомни мне
+</string>
+    <string name="sett_reminder_desc">Мы напомним вам сделать записи о вашем расходе
+</string>
+    <string name="sett_reminder_time_label">Установить время напоминания
+</string>
+    <string name="sett_reminder_time_content">8 : 00 PM</string>
+    <string name="backup_database">Резервная база данных
+</string>
+    <string name="restore_database">Восстановить базу данных
+</string>
+    <string name="google_backup">Google Резервная копия
+</string>
+    <string name="google_restore">Google Восстановление
+</string>
+    <string name="name">Имя</string>
+    <string name="amount">Сумма</string>
+    <string name="description">Описание</string>
+    <string name="date">Дата</string>
+    <string name="set_date_and_time">Установиь дату и время</string>
+    <string name="due_date">Срок сдачи
+</string>
+    <string name="update">Обновить</string>
+    <string name="delete">Удалить</string>
+    <string name="given_caps">ДАННЫЙ</string>
+    <string name="give_status">ДАТЬ СТАТУС</string>
+    <string name="submit">Разместить</string>
+    <string name="set_remainder">Установить напоминание
+</string>
+    <string name="given_reports">Отправленный </string>
+    <string name="taken_reports">Полученные Отчеты</string>
+    <string name="add_reminder">Добавить напоминание</string>
+    <string name="view_reminders">Посмотреть напоминания</string>
+    <string name="total_amount">Общая сумма</string>
+    <string name="give">Дать</string>
+    <string name="take_with_space">Получить</string>
+    <string name="save">Сохранить</string>
+    <string name="taken">ПОЛУЧЕННЫЙ</string>
+    <string name="take_status">ПОЛУЧИТЬ СТАТУС</string>
+    <string name="balance">Балланс</string>
+    <string name="reminder">Напоминание</string>
+    <string name="people_reports">ОТЧЕТЫ ЛЮДЕЙ</string>
+    <string name="give_date">Дать дату
+</string>
+    <string name="give_amount">Дать Сумму</string>
+    <string name="remind_me">Напомни мне @</string>
+</resources>

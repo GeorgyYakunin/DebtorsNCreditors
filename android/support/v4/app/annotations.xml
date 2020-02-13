@@ -1,0 +1,12 @@
+<root>
+    <item
+        name='android.support.v4.app.FragmentActivity android.support.v4.app.FragmentManager getSupportFragmentManager()'>
+        <annotation name='org.jetbrains.annotations.Contract'>
+            <val name="pure" val="true" />
+        </annotation>
+    </item>
+    <item
+        name='android.support.v4.app.FragmentActivity android.support.v4.app.LoaderManager getSupportLoaderManager()'>
+        <annotation name='android.support.annotation.NonNull' />
+    </item>
+</root>
